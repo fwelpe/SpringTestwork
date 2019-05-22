@@ -1,0 +1,64 @@
+<html>
+<head>
+    <style>
+        table {
+            border-spacing: 0 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+        th {
+            padding: 10px 20px;
+            background: #56433D;
+            color: #F9C941;
+            border-right: 2px solid;
+            font-size: 0.9em;
+        }
+        th:first-child {
+            text-align: left;
+        }
+        th:last-child {
+            border-right: none;
+        }
+        td {
+            vertical-align: middle;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+            border-top: 2px solid #56433D;
+            border-bottom: 2px solid #56433D;
+            border-right: 2px solid #56433D;
+        }
+        td:first-child {
+            border-left: 2px solid #56433D;
+        }
+        td:nth-child(2){
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<form method="post">
+    <input type="text" name="Name" placeholder="Name" />
+    <input type="text" name="Shelf" placeholder="Shelf" />
+    <input type="text" name="Box" placeholder="Box" />
+    <button type="submit">Добавить</button>
+</form>
+123!
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Shelf</th>
+        <th>Box</th>
+    </tr>
+    {{#items}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{Name}}</td>
+        <td>{{Shelf}}</td>
+        <td>{{Box}}</td>
+    </tr>
+{{/items}}
+</table>
+</body>
+</html>
