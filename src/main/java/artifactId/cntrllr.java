@@ -25,7 +25,7 @@ public class cntrllr {
         return "main";
     }
 
-    @PostMapping
+/*    @PostMapping
     public String add(@RequestParam String Name, @RequestParam String Shelf, @RequestParam String Box, Map<String, Object> model) {
         Items item = new Items(Name, Shelf, Box);
 
@@ -36,5 +36,5 @@ public class cntrllr {
         model.put("items", items);
 
         return "main";
-    }
+    }*/
 }
