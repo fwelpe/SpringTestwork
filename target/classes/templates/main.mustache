@@ -1,5 +1,6 @@
-<html>
+<html lang="ru">
 <head>
+    <title>SpringTestwork</title>
     <style>
         table {
             border-spacing: 0 10px;
@@ -37,23 +38,22 @@
     </style>
 </head>
 <body>
-<form method="post">
+<!--<form method="post">
     <input type="text" name="Name" placeholder="Name" />
     <input type="text" name="Shelf" placeholder="Shelf" />
     <input type="text" name="Box" placeholder="Box" />
     <button type="submit">Добавить</button>
-</form>
-123!
-<table>
+</form>-->
+<table id="tbl">
     <tr>
-        <th>ID</th>
+        <th>Article</th>
         <th>Name</th>
         <th>Shelf</th>
         <th>Box</th>
     </tr>
     {{#items}}
     <tr>
-        <td>{{id}}</td>
+        <td>{{Box}}{{Shelf}}</td>
         <td>{{Name}}</td>
         <td>{{Shelf}}</td>
         <td>{{Box}}</td>
