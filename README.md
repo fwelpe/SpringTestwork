@@ -1,5 +1,5 @@
 # SpringTestwork
-You need Postgresql installed, and db 'srprng' created.
+You need Postgresql installed with db 'srprng' created., and Maven to compile and run the project.
 1. git clone https://github.com/fwelpe/SpringTestwork.git
 2. cd SpringTestwork
 3. vim src/main/resources/application.properties<br>
