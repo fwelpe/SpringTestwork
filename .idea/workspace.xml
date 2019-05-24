@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f73b700-6aa3-40b0-a2e6-dafd258492e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/artifactId/cntrllr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/artifactId/cntrllr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/artifactId/tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/artifactId/tests.class" afterDir="false" />
-    </list>
+    <list default="true" id="5f73b700-6aa3-40b0-a2e6-dafd258492e2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="825">
               <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
             </state>
           </provider>
@@ -331,7 +325,7 @@
       <workItem from="1558556145631" duration="456000" />
       <workItem from="1558597725200" duration="10968000" />
       <workItem from="1558725296221" duration="333000" />
-      <workItem from="1558725715937" duration="17000" />
+      <workItem from="1558725715937" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="works on debian">
       <created>1558642602972</created>
@@ -361,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558725484566</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final">
+      <created>1558725884312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558725884313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -391,7 +392,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11774000" />
+    <option name="totallyTimeSpent" value="12821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +405,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="906" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -422,9 +422,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32903227" />
@@ -490,7 +490,8 @@
     <MESSAGE value="unit tests added" />
     <MESSAGE value="minor fixes" />
     <MESSAGE value="minor" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/artifactId/domain/Items.java">
@@ -541,7 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="825">
           <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
         </state>
       </provider>
